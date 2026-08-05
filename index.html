@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Polvo IA — notícias de inteligência artificial em português</title>
+<meta name="description" content="Uma notícia de inteligência artificial por dia, explicada em 40 segundos, em português.">
+<style>
+  :root { color-scheme: light dark; --tinta:#16202e; --fundo:#fff;
+          --suave:#6b7a90; --marca:#0d9488; --caixa:#f4f7fb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --tinta:#e8eefc; --fundo:#0b1120; --suave:#94a3b8;
+            --marca:#2dd4bf; --caixa:#131f36; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 1.25rem 5rem;
+    font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+    line-height: 1.65; color: var(--tinta); background: var(--fundo);
+  }
+  .miolo { max-width: 44rem; margin: 0 auto; }
+  header { padding: 4rem 0 2.5rem; }
+  .logo {
+    width: 84px; height: 84px; border-radius: 20px; display: block;
+    background: #12203a; margin-bottom: 1.5rem;
+  }
+  h1 { font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.1; margin: 0 0 .75rem; }
+  .linha-fina { font-size: 1.15rem; color: var(--suave); margin: 0; }
+  h2 { font-size: 1.2rem; margin: 2.75rem 0 .75rem; }
+  a { color: var(--marca); }
+  .cartoes { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); margin-top: 1rem; }
+  .cartao { background: var(--caixa); border-radius: 14px; padding: 1.1rem 1.25rem; }
+  .cartao strong { display: block; margin-bottom: .3rem; }
+  .cartao span { color: var(--suave); font-size: .95rem; }
+  .perfis { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; padding: 0; list-style: none; }
+  .perfis a {
+    display: inline-block; text-decoration: none; font-weight: 600;
+    background: var(--caixa); padding: .55rem 1rem; border-radius: 999px;
+  }
+  footer {
+    margin-top: 4rem; padding-top: 1.5rem; font-size: .92rem;
+    color: var(--suave); border-top: 1px solid color-mix(in srgb, var(--suave) 25%, transparent);
+  }
+  footer a { margin-right: 1rem; }
+</style>
+</head>
+<body>
+<div class="miolo">
+
+<header>
+  <img class="logo" src="icone.png" alt="Polvo IA">
+  <h1>Polvo IA</h1>
+  <p class="linha-fina">
+    Uma notícia de inteligência artificial por dia, explicada em 40 segundos,
+    em português. Sem hype — só o que muda a sua rotina.
+  </p>
+</header>
+
+<h2>O que é</h2>
+<p>
+  O Polvo IA acompanha as principais fontes de notícia sobre inteligência
+  artificial, seleciona a mais relevante do dia e transforma em um vídeo curto
+  e narrado, em português do Brasil. O conteúdo é publicado nos perfis
+  <strong>@polvo.ia</strong>.
+</p>
+
+<div class="cartoes">
+  <div class="cartao">
+    <strong>Uma por dia</strong>
+    <span>A notícia mais relevante, não todas elas.</span>
+  </div>
+  <div class="cartao">
+    <strong>40 segundos</strong>
+    <span>Narração contínua, direto ao ponto.</span>
+  </div>
+  <div class="cartao">
+    <strong>Fonte creditada</strong>
+    <span>Cada vídeo aponta o veículo de origem.</span>
+  </div>
+</div>
+
+<h2>Onde acompanhar</h2>
+<ul class="perfis">
+  <li><a href="https://www.instagram.com/polvo.ia/">Instagram</a></li>
+  <li><a href="https://www.tiktok.com/@polvo.ia">TikTok</a></li>
+</ul>
+
+<h2>Como o conteúdo é produzido</h2>
+<p>
+  A produção usa inteligência artificial como apoio na redação do roteiro e na
+  narração. Toda publicação passa por revisão humana antes de ir ao ar.
+  Imagens geradas por IA são identificadas como <em>imagem ilustrativa</em> no
+  próprio vídeo; fotografias de terceiros são creditadas ao veículo de origem;
+  e as imagens de apoio vêm de bancos com licença para uso comercial.
+</p>
+<p>
+  O conteúdo é informativo e não constitui aconselhamento profissional — em
+  especial, não constitui recomendação financeira ou de investimento.
+</p>
+
+<h2>Integrações</h2>
+<p>
+  O Polvo IA é uma ferramenta de uso próprio, operada por uma única pessoa para
+  publicar nas contas que ela mesma administra. A integração com o TikTok usa
+  apenas o escopo <code>video.upload</code>, que envia o vídeo como rascunho
+  para a caixa de entrada da própria conta — a publicação é sempre finalizada
+  manualmente dentro do aplicativo.
+</p>
+
+<footer>
+  <a href="privacidade.html">Política de Privacidade</a>
+  <a href="termos.html">Termos de Uso</a>
+  <br><br>
+  Contato: renan.ferreira@selin.com.br
+</footer>
+
+</div>
+</body>
+</html>
